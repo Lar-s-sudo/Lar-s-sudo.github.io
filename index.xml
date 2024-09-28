@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://Lar-s-sudo.github.io/webLara/</link>
+    <link>http://localhost:1313/webLara/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Aug 2024 11:12:00 +0200</lastBuildDate>
-    <atom:link href="https://Lar-s-sudo.github.io/webLara/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/webLara/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iptables</title>
-      <link>https://Lar-s-sudo.github.io/webLara/post/iptables/</link>
+      <link>http://localhost:1313/webLara/post/iptables/</link>
       <pubDate>Sat, 10 Aug 2024 11:12:00 +0200</pubDate>
-      <guid>https://Lar-s-sudo.github.io/webLara/post/iptables/</guid>
+      <guid>http://localhost:1313/webLara/post/iptables/</guid>
       <description>Iptables es un módulo del núcleo de Linux que se encarga de filtrar los paquetes de red, es decir, es la parte que se encarga de determinar qué paquetes de datos queremos que lleguen hasta el sistema y cuáles no.&#xA;El usuario mediante sencillas instrucciones indica al firewall el tipo de paquetes que debe permitir entrar, los puertos por donde se pueden recibir esos paquetes, el protocolo utilizado para el envío de datos y cualquier otra información relacionada con el intercambio de datos entre redes.</description>
     </item>
     <item>
       <title>Spectre Vulnerability</title>
-      <link>https://Lar-s-sudo.github.io/webLara/post/spectrevulnerability/</link>
+      <link>http://localhost:1313/webLara/post/spectrevulnerability/</link>
       <pubDate>Sun, 21 Jul 2024 16:28:42 +0200</pubDate>
-      <guid>https://Lar-s-sudo.github.io/webLara/post/spectrevulnerability/</guid>
+      <guid>http://localhost:1313/webLara/post/spectrevulnerability/</guid>
       <description>Spectre es una de las vulnerabilidades de seguridad más importantes de los últimos años, afectando a prácticamente todos los procesadores modernos. Spectre explota una de las características de los procesadores modernos conocida como ejecución especulativa.&#xA;La ejecución esculativa se basa en intentar predecir las próximas instrucciones que se ejecutarán y las ejecutan antes de que se confirmen. Si la predicción es correcta se gana tiempo, sino, los resultados especulativos se descartan y se toma el camino correcto.</description>
     </item>
     <item>
       <title>Comandos que me parecen útiles de Linux</title>
-      <link>https://Lar-s-sudo.github.io/webLara/post/comandoslinux/</link>
+      <link>http://localhost:1313/webLara/post/comandoslinux/</link>
       <pubDate>Sun, 21 Jul 2024 16:22:09 +0200</pubDate>
-      <guid>https://Lar-s-sudo.github.io/webLara/post/comandoslinux/</guid>
+      <guid>http://localhost:1313/webLara/post/comandoslinux/</guid>
       <description>Este es un post acerca de comandos que te puedes descargar en la consola de linux que considero que facilitan la vida informática.&#xA;1. htop: Ofrece una intefaz para monitorear procesos y recursos del sistema, además que te permite visualizar información sobre el uso de la CPU, la memoria, los procesos y otros recursos del sistema&#xA;2. btop: También es una herramienta de monitoreo de recursos para Linux. Esta escrita en C++</description>
     </item>
   </channel>
