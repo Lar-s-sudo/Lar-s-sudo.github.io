@@ -1,0 +1,69 @@
+
+baseURL = 'https://Lar-s-sudo.github.io/'
+languageCode = 'en-us'
+
+theme = 'poison'
+
+[params]
+	showRelatedPosts = true
+	light_mode = true 
+	front_page_content = ["posts", "projects"]
+	brand = "Lara web-site"                      # name of your site - appears in the sidebar
+    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    description = "Informatic studient interesed in cybersecurity, linux and everything related to low-level computing issues" 
+    hideToc = true
+menu = [
+        # Dict keys:
+            # Name:         The name to display on the menu.
+            # URL:          The directory relative to the content directory.
+            # HasChildren:  If the directory's files should be listed.  Default is true.
+            # Limit:        If the files should be listed, how many should be shown.
+
+        # SINGLE PAGE
+        # Note that you must put your markdown file 
+        # inside of a directory with the same name.
+
+        # Example:
+        # ... /content/about/about.md
+        {Name = "About", URL = "/about/", HasChildren = false},
+        
+        # LIST
+        # This example has a subheading of "Recent"
+        # and will display up to 5 items.
+
+        # Example:
+        # ... /content/posts/introducing-poison.md
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+
+        # Example of a list without a subheading or limit.
+        {Name = "Projects", URL = "/projects/"},
+    ]
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
+
+[params.social]
+    github = "https://github.com/Lar-s-sudo"
+
+
+    [permalinks]
+ # posts = "/:categories/:title/"
